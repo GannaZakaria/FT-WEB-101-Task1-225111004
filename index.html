@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<!-- Name: Ganna Zakaria | Student ID: 225111004 -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganna Zakaria | My Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1 class="nav-name">Ganna Zakaria</h1>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+                <span class="sun">☀</span>
+                <span class="moon">☾</span>
+                <span class="toggle-circle"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <div class="profile-image">
+                <img src="images/me.jpg" alt="Photo of Ganna Zakaria">
+            </div>
+
+            <h2>Welcome to My Profile</h2>
+            <p>A little introduction about me</p>
+        </section>
+
+        <section id="skills">
+            <h2>My Interests</h2>
+
+            <div class="cards-container">
+
+                <div class="card">
+                    <h3>Hobbies</h3>
+                    <p>
+                        I enjoy video editing and creating videos in my free time.
+                        I like trying new ideas and adding creative touches to my videos.
+                        I'm still learning and exploring new editing techniques.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Skills</h3>
+                    <p>
+                        I enjoy coding and exploring different programming concepts.
+                        I'm also interested in Data Science and how data can be used to discover useful insights and solve real-world problems.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>About Me</h3>
+                    <p>
+                        I'm a Level 2 Computer Science student at
+                        New Mansoura University.
+                        I enjoy learning about technology and programming.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p class="contact-intro">
+                Hello! Feel free to say hi.
+            </p>
+
+            <form id="contact-form">
+
+                <div class="form-fields">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Write your name..."
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email..."
+                            required
+                        >
+                    </div>
+
+                </div>
+
+                <button type="submit" id="submit-button">Submit</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ganna Zakaria. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
